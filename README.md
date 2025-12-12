@@ -105,7 +105,6 @@ The rule ```ancestor(X, Y)``` means ```X``` is the ancestor of ```Y```.  An ance
 Next, we will write some Prolog rules that require numeric comparisons.
 
 Complete the following rules:
-
 ```older/2```
 ```younger/2```
 The rule ```older(X, Y)``` indicates person ```X``` is older than person ```Y```. The rule ```younger/2``` will be written in a similar manner. Please note that this rule is the same as previous ones. When given both an X and a Y, it sets a relationship. When given only an X it will return all the persons (Y) that X is older than and vis versa. 
